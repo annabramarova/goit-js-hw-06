@@ -6,7 +6,7 @@ const buttonColorSwitcher = document.querySelector('.change-color');
 const result = document.querySelector('.color');
 const body = document.querySelector('body');
 
-const changeColor = e => {
+const changeColor = () => {
   let color = getRandomHexColor();
   body.style.backgroundColor = color;
   result.textContent = color;
