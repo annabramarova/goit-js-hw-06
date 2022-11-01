@@ -11,7 +11,7 @@ const refs = {
 
 const createBoxes = (amount) => {
   const addedEl = [];
-  for (let i = 0; i <= amount; i+=1) {
+  for (let i = 0; i < amount; i+=1) {
     const div = document.createElement('div');
     div.style.height = `${30 + 10 * i}px`;
     div.style.width = `${30 + 10 * i}px`;
